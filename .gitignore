@@ -4,4 +4,6 @@ __pycache__/
 
 # ignore data files
 data/csv/
+*.csv
 data/json/
+*.json
