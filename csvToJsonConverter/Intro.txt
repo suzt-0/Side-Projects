@@ -1,0 +1,42 @@
+A converter that will take csv file and convert it into a json file format:
+
+like:
+csv exmaple:
+Name,Age,City
+John,25,New York
+Jane,30,Los Angeles
+
+
+converted json:
+[
+    {
+        "Name": "John",
+        "Age": "25",
+        "City": "New York"
+    },
+    {
+        "Name": "Jane",
+        "Age": "30",
+        "City": "Los Angeles"
+    }
+]
+
+
+How it works:
+
+1. run the main.py file in the terminal:
+    ***
+    python main.py
+    ***
+2. It will prompt you to enter the file name
+   {The file should be in .data/csv folder
+   The converter will accesss the file from the folder}
+   ***
+   example.csv
+   ***
+3.The converted json file will be available in ./data/json/ folder with a timestamp attached to it 
+
+
+
+
+
