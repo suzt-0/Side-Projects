@@ -1,3 +1,7 @@
 # remove python cache files
 __pycache__/
 *.py[cod]
+
+# ignore data files
+data/csv/
+data/json/
